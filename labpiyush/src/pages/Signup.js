@@ -21,7 +21,7 @@ function Signup() {
     <div>
       <h2>Signup</h2>
       <input name="username" placeholder="Username" onChange={handleChange} />
-      <input name="email" placeholder="Email" onChange={handleChange} />
+      <input name="email" placeholder="Email" onChange={handleLogin} />
       <input name="password" type="password" placeholder="Password" onChange={handleChange} />
       <button onClick={handleSignup}>Signup</button>
     </div>
